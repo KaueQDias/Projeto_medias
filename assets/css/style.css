@@ -1,0 +1,66 @@
+h2{
+  color: rgba(31, 35, 35, 0.827);
+  font-weight: stroke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  /* padding-top: 1rem;*/
+  margin: 0 0 4rem;
+}
+
+button{
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  background: none;
+  background-color: rgba(176, 255, 79, 0.791);;
+  font-size: 13pt;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  display: inline;
+  padding: 1rem;
+  margin: 0 0 1.3rem;
+  box-sizing: content-box;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.49);
+  transition-duration: all 0.5s;
+}button:hover{
+  border: none;
+  box-shadow: 20px 10px  rgb(177, 203, 229);
+  background: rgba(131, 231, 10, 0.839);
+  color: rgb(77, 79, 81) ;
+
+}
+
+input{
+  text-decoration: none;
+  border:none;
+  list-style: none;
+  background-color: #d9d9d9;
+  /* background: none; */
+  /* font-size: smaller; */
+  display: inline-table;
+  padding: 0.6rem 0;
+  /* margin: 0;
+  margin-left: auto;
+  margin-right:auto ; */
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  width: 20%;
+  transition: 1.3s;
+}input:hover{
+  border-radius: 3rem;
+  
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:center;
+  /* border: 1px solid rgb(36, 215, 36); */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  margin-top: 8%;
+}
